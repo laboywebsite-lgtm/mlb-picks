@@ -1,0 +1,54 @@
+{
+  "sport": "MLB",
+  "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
+  "files": [
+    {
+      "name": "Laboy Picks 2026-04-14-aebbc0f.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Picks%202026-04-14-aebbc0f.html",
+      "type": "picks",
+      "date": "2026-04-14"
+    },
+    {
+      "name": "Laboy Model Card 2026-04-13-276996e.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Model%20Card%202026-04-13-276996e.html",
+      "type": "record",
+      "date": "2026-04-13"
+    },
+    {
+      "name": "Laboy Picks 2026-04-13-276996e.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Picks%202026-04-13-276996e.html",
+      "type": "picks",
+      "date": "2026-04-13"
+    },
+    {
+      "name": "Laboy Picks 2026-04-13.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Picks%202026-04-13.html",
+      "type": "picks",
+      "date": "2026-04-13"
+    },
+    {
+      "name": "Laboy Record Card 2026-04-12.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Record%20Card%202026-04-12.html",
+      "type": "record",
+      "date": "2026-04-12"
+    },
+    {
+      "name": "Laboy Picks 2026-04-12.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Picks%202026-04-12.html",
+      "type": "picks",
+      "date": "2026-04-12"
+    },
+    {
+      "name": "Laboy Model Card 2026-04-12.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Model%20Card%202026-04-12.html",
+      "type": "record",
+      "date": "2026-04-12"
+    },
+    {
+      "name": "Laboy Lines 2026-04-12.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Lines%202026-04-12.html",
+      "type": "lines",
+      "date": "2026-04-12"
+    }
+  ]
+}
