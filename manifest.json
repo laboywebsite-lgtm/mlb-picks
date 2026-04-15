@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Pick 2026-04-15 #11.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-15%20%2311.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-04-15"
+    },
+    {
       "name": "Laboy Model Card 2026-04-15-39031bd.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Model%20Card%202026-04-15-39031bd.html",
       "type": "record",
@@ -122,11 +129,19 @@
       "date": "2026-04-12"
     },
     {
+      "name": "Laboy Pick 2026-04-15 #11.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-15%20%2311.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-04-15",
+      "game": "ANGELS @ YANKEES"
+    },
+    {
       "name": "Laboy Pick 2026-04-15 #10.jpg",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-15%20%2310.jpg",
       "type": "mypick_img",
       "subtype": "today",
-      "date": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Picks%202026-04-15-39031bd.html",
+      "date": "2026-04-15",
       "game": "GUARDIANS @ CARDINALS"
     },
     {
