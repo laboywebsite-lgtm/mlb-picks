@@ -3,84 +3,52 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>⚾ Laboy Picks — Dashboard</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+<title>Laboy Picks — Privado</title>
 <style>
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{background:#0a0a0a;color:#e2e8f0;font-family:'Inter',sans-serif;
-       min-height:100vh;padding:24px 16px 56px}
-  .header{text-align:center;margin-bottom:28px;padding-top:20px}
-  .header h1{font-size:1.5rem;font-weight:900;letter-spacing:-.5px}
-  .header h1 span{color:#f97316}
-  .header p{font-size:.78rem;color:#64748b;margin-top:5px}
-  .sec-title{font-size:.7rem;font-weight:700;letter-spacing:.12em;
-             color:#64748b;text-transform:uppercase;
-             max-width:520px;margin:0 auto 12px;padding:0 2px}
-  .section{max-width:520px;margin:0 auto 28px}
-  .pick-grid{display:flex;flex-direction:column;gap:12px}
-  .pick-img-wrap{border-radius:14px;overflow:hidden;
-                 border:1px solid #1e293b;background:#111;
-                 transition:border-color .2s}
-  .pick-img-wrap:hover{border-color:#f97316}
-  .pick-img-wrap img{width:100%;height:auto;display:block}
-  .list{display:flex;flex-direction:column;gap:10px}
-  .item{display:flex;justify-content:space-between;align-items:center;
-        background:#141414;border:1px solid #1e293b;border-radius:12px;
-        padding:14px 18px;text-decoration:none;color:#e2e8f0;
-        transition:border-color .2s,background .2s}
-  .item:hover{background:#1a1a1a;border-color:#f97316}
-  .label{font-size:.9rem;font-weight:600}
-  .ts{font-size:.73rem;color:#64748b;white-space:nowrap;margin-left:10px}
-  .archive-btn{display:flex;justify-content:space-between;align-items:center;
-               background:#141414;border:1px solid #334155;border-radius:12px;
-               padding:14px 18px;text-decoration:none;color:#94a3b8;
-               max-width:520px;margin:0 auto;
-               transition:border-color .2s,color .2s}
-  .archive-btn:hover{border-color:#f97316;color:#e2e8f0}
-  .empty{text-align:center;color:#64748b;padding:28px 0;font-size:.85rem}
-  .footer{text-align:center;margin-top:36px;font-size:.68rem;color:#334155}
-  .date-label{font-size:.75rem;font-weight:700;color:#f97316;
-              letter-spacing:.06em;margin:20px 0 10px;
-              padding-bottom:6px;border-bottom:1px solid #1e293b}</style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#0f1117;color:#e2e8f0;font-family:system-ui,sans-serif;
+     padding:24px 16px 48px;max-width:480px;margin:0 auto}
+h1{font-size:1.1rem;font-weight:700;margin-bottom:4px}
+h1 span{color:#f97316}
+.sub{font-size:.73rem;color:#475569;margin-bottom:20px}
+.app-link{display:flex;align-items:center;justify-content:space-between;
+           background:#141820;border:1px solid #f97316;border-radius:12px;
+           padding:14px 16px;text-decoration:none;color:#f97316;
+           font-weight:700;font-size:.9rem;margin-bottom:20px}
+h2{font-size:.65rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+    color:#475569;margin-bottom:10px}
+ul{list-style:none;display:flex;flex-direction:column;gap:8px}
+li a{display:flex;justify-content:space-between;align-items:center;
+      background:#141820;border:1px solid #1e293b;border-radius:10px;
+      padding:11px 14px;text-decoration:none;color:#e2e8f0;font-size:.85rem;
+      transition:border-color .15s}
+li a:hover{border-color:#f97316}
+.ts{font-size:.7rem;color:#475569;white-space:nowrap;margin-left:8px}
+</style>
 </head>
 <body>
-  <div class="header">
-    <h1>⚾ Laboy <span>Picks</span></h1>
-    <p>Dashboard privado · April 15, 2026 · 13:26</p>
-  </div>
-
-  <div class="section">
-    <div class="sec-title">📸 Mis Picks de Hoy — 2026-04-15</div>
-    <p class="empty">No hay picks publicados hoy.</p>
-  </div>
-
-  <div class="section">
-    <div class="sec-title">📋 Reportes</div>
-    <div class="list">
-<a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-15%20%2310.html" target="_blank" class="item"><span class="label">🎯 Pick 2026-04-15 #10</span><span class="ts">Apr 15 · 13:26</span></a>
-<a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Picks%202026-04-15-39031bd.html" target="_blank" class="item"><span class="label">🎯 Picks 2026-04-15</span><span class="ts">Apr 15 · 11:49</span></a>
-<a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Model%20Card%202026-04-14-aebbc0f.html" target="_blank" class="item"><span class="label">🏆 Model Card 2026-04-14</span><span class="ts">Apr 15 · 11:42</span></a>
-<a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Picks%202026-04-14-aebbc0f.html" target="_blank" class="item"><span class="label">🎯 Picks 2026-04-14</span><span class="ts">Apr 15 · 11:42</span></a>
-<a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Record%20Card%202026-04-14-aebbc0f.html" target="_blank" class="item"><span class="label">📈 Record Card 2026-04-14</span><span class="ts">Apr 15 · 11:41</span></a>
-<a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Model%20Card%202026-04-13-276996e.html" target="_blank" class="item"><span class="label">🏆 Model Card 2026-04-13</span><span class="ts">Apr 15 · 09:36</span></a>
-<a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Picks%202026-04-13-276996e.html" target="_blank" class="item"><span class="label">🎯 Picks 2026-04-13</span><span class="ts">Apr 15 · 09:36</span></a>
-<a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Record%20Card%202026-04-13-276996e.html" target="_blank" class="item"><span class="label">📈 Record Card 2026-04-13</span><span class="ts">Apr 15 · 09:32</span></a>
-<a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Record%20Card%202026-04-15-39031bd.html" target="_blank" class="item"><span class="label">📈 Record Card 2026-04-15</span><span class="ts">Apr 15 · 08:55</span></a>
-<a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Record%20Card%20%23-1c2f1ba.html" target="_blank" class="item"><span class="label">📈 Record Card #</span><span class="ts">Apr 14 · 17:15</span></a>
-<a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Lines%202026-04-14-aebbc0f.html" target="_blank" class="item"><span class="label">📊 Lines 2026-04-14</span><span class="ts">Apr 14 · 15:32</span></a>
-<a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Picks%202026-04-13.html" target="_blank" class="item"><span class="label">🎯 Picks 2026-04-13</span><span class="ts">Apr 13 · 16:55</span></a>
-<a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Record%20Card%202026-04-12.html" target="_blank" class="item"><span class="label">📈 Record Card 2026-04-12</span><span class="ts">Apr 13 · 16:39</span></a>
-<a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Picks%202026-04-12.html" target="_blank" class="item"><span class="label">🎯 Picks 2026-04-12</span><span class="ts">Apr 13 · 16:30</span></a>
-<a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Model%20Card%202026-04-12.html" target="_blank" class="item"><span class="label">🏆 Model Card 2026-04-12</span><span class="ts">Apr 13 · 16:30</span></a>
-<a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Lines%202026-04-12.html" target="_blank" class="item"><span class="label">📊 Lines 2026-04-12</span><span class="ts">Apr 12 · 12:06</span></a>
-    </div>
-  </div>
-
-  <a href="https://laboywebsite-lgtm.github.io/mlb-picks/archive-picks-Lb9x3Kw.html" class="archive-btn">
-    <span class="label">📁 Archive Picks</span>
-    <span class="ts">13 foto(s) anteriores →</span>
-  </a>
-
-  <div class="footer">Solo tú tienes esta URL · No la compartas</div>
+<h1>⚾ Laboy <span>Picks</span> — Privado</h1>
+<p class="sub">Generado Apr 15, 2026 13:40 · No compartir esta URL</p>
+<a href="https://laboywebsite-lgtm.github.io/mlb-picks/" target="_blank" class="app-link">
+  🌐 Abrir App Pública →
+</a>
+<h2>📋 Archivos publicados</h2>
+<ul><li><a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-15%20%2310.html" target="_blank"><span>🎯 Pick 2026-04-15 #10</span><span class="ts">Apr 15 · 13:40</span></a></li>
+<li><a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Picks%202026-04-15-39031bd.html" target="_blank"><span>🎯 Picks 2026-04-15</span><span class="ts">Apr 15 · 11:49</span></a></li>
+<li><a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Model%20Card%202026-04-14-aebbc0f.html" target="_blank"><span>🏆 Model Card 2026-04-14</span><span class="ts">Apr 15 · 11:42</span></a></li>
+<li><a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Picks%202026-04-14-aebbc0f.html" target="_blank"><span>🎯 Picks 2026-04-14</span><span class="ts">Apr 15 · 11:42</span></a></li>
+<li><a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Record%20Card%202026-04-14-aebbc0f.html" target="_blank"><span>📈 Record Card 2026-04-14</span><span class="ts">Apr 15 · 11:41</span></a></li>
+<li><a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Model%20Card%202026-04-13-276996e.html" target="_blank"><span>🏆 Model Card 2026-04-13</span><span class="ts">Apr 15 · 09:36</span></a></li>
+<li><a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Picks%202026-04-13-276996e.html" target="_blank"><span>🎯 Picks 2026-04-13</span><span class="ts">Apr 15 · 09:36</span></a></li>
+<li><a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Record%20Card%202026-04-13-276996e.html" target="_blank"><span>📈 Record Card 2026-04-13</span><span class="ts">Apr 15 · 09:32</span></a></li>
+<li><a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Record%20Card%202026-04-15-39031bd.html" target="_blank"><span>📈 Record Card 2026-04-15</span><span class="ts">Apr 15 · 08:55</span></a></li>
+<li><a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Record%20Card%20%23-1c2f1ba.html" target="_blank"><span>📈 Record Card #</span><span class="ts">Apr 14 · 17:15</span></a></li>
+<li><a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Lines%202026-04-14-aebbc0f.html" target="_blank"><span>📊 Lines 2026-04-14</span><span class="ts">Apr 14 · 15:32</span></a></li>
+<li><a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Picks%202026-04-13.html" target="_blank"><span>🎯 Picks 2026-04-13</span><span class="ts">Apr 13 · 16:55</span></a></li>
+<li><a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Record%20Card%202026-04-12.html" target="_blank"><span>📈 Record Card 2026-04-12</span><span class="ts">Apr 13 · 16:39</span></a></li>
+<li><a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Picks%202026-04-12.html" target="_blank"><span>🎯 Picks 2026-04-12</span><span class="ts">Apr 13 · 16:30</span></a></li>
+<li><a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Model%20Card%202026-04-12.html" target="_blank"><span>🏆 Model Card 2026-04-12</span><span class="ts">Apr 13 · 16:30</span></a></li>
+<li><a href="https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Lines%202026-04-12.html" target="_blank"><span>📊 Lines 2026-04-12</span><span class="ts">Apr 12 · 12:06</span></a></li>
+</ul>
 </body>
 </html>
