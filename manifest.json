@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Pick 2026-04-15 #12.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-15%20%2312.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-04-15"
+    },
+    {
       "name": "Laboy Pick 2026-04-15 #11.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-15%20%2311.html",
       "type": "record",
@@ -127,6 +134,14 @@
       "type": "lines",
       "subtype": "",
       "date": "2026-04-12"
+    },
+    {
+      "name": "Laboy Pick 2026-04-15 #12.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-15%20%2312.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-04-15",
+      "game": "MARLINS @ BRAVES"
     },
     {
       "name": "Laboy Pick 2026-04-15 #11.jpg",
