@@ -3,6 +3,20 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Model Card 2026-04-17-06ad772.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Model%20Card%202026-04-17-06ad772.html",
+      "type": "record",
+      "subtype": "model_record",
+      "date": "2026-04-17"
+    },
+    {
+      "name": "Laboy Picks 2026-04-17-06ad772.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Picks%202026-04-17-06ad772.html",
+      "type": "picks",
+      "subtype": "",
+      "date": "2026-04-17"
+    },
+    {
       "name": "Laboy Pick 2026-04-17 #21.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-17%20%2321.html",
       "type": "record",
@@ -21,13 +35,6 @@
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-17%20%2319.html",
       "type": "record",
       "subtype": "my_record",
-      "date": "2026-04-17"
-    },
-    {
-      "name": "Laboy Picks 2026-04-17-06ad772.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Picks%202026-04-17-06ad772.html",
-      "type": "picks",
-      "subtype": "",
       "date": "2026-04-17"
     },
     {
@@ -136,17 +143,10 @@
       "date": "2026-04-15"
     },
     {
-      "name": "Laboy Pick 2026-04-15 #11.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-15%20%2311.html",
-      "type": "record",
-      "subtype": "my_record",
-      "date": "2026-04-15"
-    },
-    {
       "name": "Laboy Pick 2026-04-17 #21.jpg",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-17%20%2321.jpg",
       "type": "mypick_img",
-      "subtype": "today",
+      "subtype": "archive",
       "date": "2026-04-17",
       "game": "PADRES @ ANGELS"
     },
@@ -154,7 +154,7 @@
       "name": "Laboy Pick 2026-04-17 #20.jpg",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-17%20%2320.jpg",
       "type": "mypick_img",
-      "subtype": "today",
+      "subtype": "archive",
       "date": "2026-04-17",
       "game": "BREWERS @ MARLINS"
     },
@@ -162,7 +162,7 @@
       "name": "Laboy Pick 2026-04-17 #19.jpg",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-17%20%2319.jpg",
       "type": "mypick_img",
-      "subtype": "today",
+      "subtype": "archive",
       "date": "2026-04-17",
       "game": "GIANTS @ NATIONALS"
     },
