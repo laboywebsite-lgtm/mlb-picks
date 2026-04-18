@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Pick 2026-04-18 #23.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-18%20%2323.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-04-18"
+    },
+    {
       "name": "Laboy Pick 2026-04-18 #22.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-18%20%2322.html",
       "type": "record",
@@ -136,11 +143,12 @@
       "date": "2026-04-15"
     },
     {
-      "name": "Laboy Pick 2026-04-15 #14.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-15%20%2314.html",
-      "type": "record",
-      "subtype": "my_record",
-      "date": "2026-04-15"
+      "name": "Laboy Pick 2026-04-18 #23.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-18%20%2323.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-04-18",
+      "game": "CARDINALS @ ASTROS"
     },
     {
       "name": "Laboy Pick 2026-04-18 #22.jpg",
