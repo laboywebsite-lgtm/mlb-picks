@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Pick 2026-04-19 #26.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-19%20%2326.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-04-19"
+    },
+    {
       "name": "Laboy Pick 2026-04-19 #25.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-19%20%2325.html",
       "type": "record",
@@ -136,11 +143,12 @@
       "date": "2026-04-16"
     },
     {
-      "name": "Laboy Pick 2026-04-16 #16.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-16%20%2316.html",
-      "type": "record",
-      "subtype": "my_record",
-      "date": "2026-04-16"
+      "name": "Laboy Pick 2026-04-19 #26.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-19%20%2326.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-04-19",
+      "game": "METS vs. CUBS"
     },
     {
       "name": "Laboy Pick 2026-04-19 #25.jpg",
