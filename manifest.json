@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Pick 2026-04-19 #25.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-19%20%2325.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-04-19"
+    },
+    {
       "name": "Laboy Pick 2026-04-19 #24.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-19%20%2324.html",
       "type": "record",
@@ -136,11 +143,12 @@
       "date": "2026-04-16"
     },
     {
-      "name": "Laboy Pick 2026-04-16 #15.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-16%20%2315.html",
-      "type": "record",
-      "subtype": "my_record",
-      "date": "2026-04-16"
+      "name": "Laboy Pick 2026-04-19 #25.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-19%20%2325.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-04-19",
+      "game": "BREWERS vs. MARLINS"
     },
     {
       "name": "Laboy Pick 2026-04-19 #24.jpg",
