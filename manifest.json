@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Pick 2026-04-20 #28.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-20%20%2328.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-04-20"
+    },
+    {
       "name": "Laboy Lines 2026-04-20-991274e.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Lines%202026-04-20-991274e.html",
       "type": "lines",
@@ -136,11 +143,12 @@
       "date": "2026-04-16"
     },
     {
-      "name": "Laboy Model Card 2026-04-16-23ef385.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Model%20Card%202026-04-16-23ef385.html",
-      "type": "record",
-      "subtype": "model_record",
-      "date": "2026-04-16"
+      "name": "Laboy Pick 2026-04-20 #28.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-20%20%2328.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-04-20",
+      "game": "REDS @ RAYS"
     },
     {
       "name": "Laboy Pick 2026-04-19 #27.jpg",
