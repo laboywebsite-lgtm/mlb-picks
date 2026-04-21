@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Pick 2026-04-21 #32.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-21%20%2332.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-04-21"
+    },
+    {
       "name": "Laboy Pick 2026-04-21 #31.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-21%20%2331.html",
       "type": "record",
@@ -136,11 +143,12 @@
       "date": "2026-04-18"
     },
     {
-      "name": "Laboy Picks 2026-04-18-1c4049a.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Picks%202026-04-18-1c4049a.html",
-      "type": "picks",
-      "subtype": "",
-      "date": "2026-04-18"
+      "name": "Laboy Pick 2026-04-21 #32.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-21%20%2332.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-04-21",
+      "game": "BRAVES @ NATIONALS"
     },
     {
       "name": "Laboy Pick 2026-04-21 #31.jpg",
