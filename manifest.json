@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Pick 2026-04-22 #35.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-22%20%2335.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-04-22"
+    },
+    {
       "name": "Laboy Debug 2026-04-22-504f8c7.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Debug%202026-04-22-504f8c7.html",
       "type": "debug",
@@ -136,11 +143,28 @@
       "date": "2026-04-19"
     },
     {
-      "name": "Laboy Record Card 2026-04-18-1c4049a.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Record%20Card%202026-04-18-1c4049a.html",
-      "type": "record",
-      "subtype": "my_record",
-      "date": "2026-04-18"
+      "name": "Laboy Pick 2026-04-22 #35.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-22%20%2335.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-04-22",
+      "game": "ASTROS @ GUARDIANS"
+    },
+    {
+      "name": "Laboy Pick 2026-04-22 #34.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-22%20%2334.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-04-22",
+      "game": "ASTROS @ GUARDIANS"
+    },
+    {
+      "name": "Laboy Pick 2026-04-22 #33.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-22%20%2333.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-04-22",
+      "game": "CARDINALS @ MARLINS"
     },
     {
       "name": "Laboy Pick 2026-04-21 #32.jpg",
