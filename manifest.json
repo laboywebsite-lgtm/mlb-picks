@@ -5,8 +5,8 @@
     {
       "name": "Laboy Debug 2026-04-22-504f8c7.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Debug%202026-04-22-504f8c7.html",
-      "type": "record",
-      "subtype": "my_record",
+      "type": "debug",
+      "subtype": "",
       "date": "2026-04-22"
     },
     {
