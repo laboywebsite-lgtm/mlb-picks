@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Picks 2026-04-22-504f8c7.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Picks%202026-04-22-504f8c7.html",
+      "type": "picks",
+      "subtype": "",
+      "date": "2026-04-22"
+    },
+    {
       "name": "Laboy Record Card 2026-04-21-8e5490e.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Record%20Card%202026-04-21-8e5490e.html",
       "type": "record",
@@ -136,17 +143,10 @@
       "date": "2026-04-19"
     },
     {
-      "name": "Laboy Pick 2026-04-18 #23.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-18%20%2323.html",
-      "type": "record",
-      "subtype": "my_record",
-      "date": "2026-04-18"
-    },
-    {
       "name": "Laboy Pick 2026-04-21 #32.jpg",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-21%20%2332.jpg",
       "type": "mypick_img",
-      "subtype": "today",
+      "subtype": "archive",
       "date": "2026-04-21",
       "game": "BRAVES @ NATIONALS"
     },
@@ -154,7 +154,7 @@
       "name": "Laboy Pick 2026-04-21 #31.jpg",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-21%20%2331.jpg",
       "type": "mypick_img",
-      "subtype": "today",
+      "subtype": "archive",
       "date": "2026-04-21",
       "game": "REDS @ RAYS"
     },
@@ -381,22 +381,6 @@
       "subtype": "archive",
       "date": "2026-04-12",
       "game": "GUARDIANS VS BRAVES"
-    },
-    {
-      "name": "Laboy Pick 2026-04-12 #0.jpg",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-12%20%230.jpg",
-      "type": "mypick_img",
-      "subtype": "archive",
-      "date": "2026-04-12",
-      "game": "ANGELS VS REDS"
-    },
-    {
-      "name": "Laboy Pick 2026-04-12 #3.jpg",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-12%20%233.jpg",
-      "type": "mypick_img",
-      "subtype": "archive",
-      "date": "2026-04-12",
-      "game": "ASTROS VS MARINERS"
     }
   ]
 }
