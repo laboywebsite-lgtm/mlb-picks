@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Pick 2026-04-23 #38.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-23%20%2338.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-04-23"
+    },
+    {
       "name": "Laboy Pick 2026-04-23 #37.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-23%20%2337.html",
       "type": "record",
@@ -136,11 +143,12 @@
       "date": "2026-04-20"
     },
     {
-      "name": "Laboy Pick 2026-04-19 #27.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-19%20%2327.html",
-      "type": "record",
-      "subtype": "my_record",
-      "date": "2026-04-19"
+      "name": "Laboy Pick 2026-04-23 #38.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-23%20%2338.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-04-23",
+      "game": "PHILLIES @ CUBS"
     },
     {
       "name": "Laboy Pick 2026-04-23 #37.jpg",
