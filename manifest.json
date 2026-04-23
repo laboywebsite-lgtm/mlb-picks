@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Pick 2026-04-23 #40.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-23%20%2340.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-04-23"
+    },
+    {
       "name": "Laboy Debug 2026-04-23-d0ec918.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Debug%202026-04-23-d0ec918.html",
       "type": "debug",
@@ -136,11 +143,12 @@
       "date": "2026-04-20"
     },
     {
-      "name": "Laboy Pick 2026-04-20 #30.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-20%20%2330.html",
-      "type": "record",
-      "subtype": "my_record",
-      "date": "2026-04-20"
+      "name": "Laboy Pick 2026-04-23 #40.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-23%20%2340.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-04-23",
+      "game": "YANKEES @ RED SOX"
     },
     {
       "name": "Laboy Pick 2026-04-23 #39.jpg",
