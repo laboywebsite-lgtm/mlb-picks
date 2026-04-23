@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Pick 2026-04-22 #37.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-22%20%2337.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-04-22"
+    },
+    {
       "name": "Laboy Pick 2026-04-22 #35.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-22%20%2335.html",
       "type": "record",
@@ -136,11 +143,20 @@
       "date": "2026-04-19"
     },
     {
-      "name": "Laboy Picks 2026-04-19-6162995.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Picks%202026-04-19-6162995.html",
-      "type": "picks",
-      "subtype": "",
-      "date": "2026-04-19"
+      "name": "Laboy Pick 2026-04-22 #37.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-22%20%2337.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-04-22",
+      "game": "PADRES @ ROCKIES"
+    },
+    {
+      "name": "Laboy Pick 2026-04-22 #36.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-22%20%2336.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-04-22",
+      "game": "BLUE JAYS @ ANGELS"
     },
     {
       "name": "Laboy Pick 2026-04-22 #35.jpg",
