@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Pick 2026-04-24 #41.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-24%20%2341.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-04-24"
+    },
+    {
       "name": "Laboy Debug 2026-04-24-402d71e.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Debug%202026-04-24-402d71e.html",
       "type": "debug",
@@ -136,11 +143,12 @@
       "date": "2026-04-21"
     },
     {
-      "name": "Laboy Picks 2026-04-21-8e5490e.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Picks%202026-04-21-8e5490e.html",
-      "type": "picks",
-      "subtype": "",
-      "date": "2026-04-21"
+      "name": "Laboy Pick 2026-04-24 #41.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-24%20%2341.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-04-24",
+      "game": "TIGERS @ REDS"
     },
     {
       "name": "Laboy Pick 2026-04-23 #40.jpg",
