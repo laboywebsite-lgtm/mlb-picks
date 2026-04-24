@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Pick 2026-04-24 #43.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-24%20%2343.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-04-24"
+    },
+    {
       "name": "Laboy Pick 2026-04-24 #42.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-24%20%2342.html",
       "type": "record",
@@ -136,11 +143,12 @@
       "date": "2026-04-21"
     },
     {
-      "name": "Laboy Pick 2026-04-21 #31.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-21%20%2331.html",
-      "type": "record",
-      "subtype": "my_record",
-      "date": "2026-04-21"
+      "name": "Laboy Pick 2026-04-24 #43.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-24%20%2343.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-04-24",
+      "game": "ANGELS @ ROYALS"
     },
     {
       "name": "Laboy Pick 2026-04-24 #42.jpg",
