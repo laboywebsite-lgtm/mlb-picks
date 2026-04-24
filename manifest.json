@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Pick 2026-04-24 #42.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-24%20%2342.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-04-24"
+    },
+    {
       "name": "Laboy Pick 2026-04-24 #41.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-24%20%2341.html",
       "type": "record",
@@ -136,11 +143,12 @@
       "date": "2026-04-21"
     },
     {
-      "name": "Laboy Lines 2026-04-21-8e5490e.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Lines%202026-04-21-8e5490e.html",
-      "type": "lines",
-      "subtype": "",
-      "date": "2026-04-21"
+      "name": "Laboy Pick 2026-04-24 #42.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-24%20%2342.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-04-24",
+      "game": "RED SOX @ ORIOLES"
     },
     {
       "name": "Laboy Pick 2026-04-24 #41.jpg",
