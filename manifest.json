@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Record Card 2026-04-23-d0ec918.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Record%20Card%202026-04-23-d0ec918.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-04-23"
+    },
+    {
       "name": "Laboy Pick 2026-04-23 #40.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-23%20%2340.html",
       "type": "record",
@@ -136,13 +143,6 @@
       "date": "2026-04-20"
     },
     {
-      "name": "Laboy Picks 2026-04-20-991274e.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Picks%202026-04-20-991274e.html",
-      "type": "picks",
-      "subtype": "",
-      "date": "2026-04-20"
-    },
-    {
       "name": "Laboy Pick 2026-04-23 #40.jpg",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-23%20%2340.jpg",
       "type": "mypick_img",
@@ -175,6 +175,14 @@
       "game": "BREWERS @ TIGERS"
     },
     {
+      "name": "Laboy Pick 2026-04-22 #36.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-22%20%2336.jpg",
+      "type": "mypick_img",
+      "subtype": "archive",
+      "date": "2026-04-22",
+      "game": "PADRES @ ROCKIES"
+    },
+    {
       "name": "Laboy Pick 2026-04-22 #35.jpg",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-22%20%2335.jpg",
       "type": "mypick_img",
@@ -197,14 +205,6 @@
       "subtype": "archive",
       "date": "2026-04-22",
       "game": "BREWERS @ TIGERS"
-    },
-    {
-      "name": "Laboy Pick 2026-04-22 #36.jpg",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-22%20%2336.jpg",
-      "type": "mypick_img",
-      "subtype": "archive",
-      "date": "2026-04-22",
-      "game": "PADRES @ ROCKIES"
     },
     {
       "name": "Laboy Pick 2026-04-22 #33.jpg",
