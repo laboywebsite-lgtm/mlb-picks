@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Pick 2026-04-25 #45.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-25%20%2345.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-04-25"
+    },
+    {
       "name": "Laboy Debug 2026-04-25-a5b15b5.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Debug%202026-04-25-a5b15b5.html",
       "type": "debug",
@@ -136,11 +143,12 @@
       "date": "2026-04-22"
     },
     {
-      "name": "Laboy Pick 2026-04-22 #35.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-22%20%2335.html",
-      "type": "record",
-      "subtype": "my_record",
-      "date": "2026-04-22"
+      "name": "Laboy Pick 2026-04-25 #45.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-25%20%2345.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-04-25",
+      "game": "PHILLIES @ BRAVES"
     },
     {
       "name": "Laboy Pick 2026-04-25 #44.jpg",
