@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Picks 2026-04-26-bac7767.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Picks%202026-04-26-bac7767.html",
+      "type": "picks",
+      "subtype": "",
+      "date": "2026-04-26"
+    },
+    {
       "name": "Laboy Pick 2026-04-25 #45.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-25%20%2345.html",
       "type": "record",
@@ -136,17 +143,10 @@
       "date": "2026-04-22"
     },
     {
-      "name": "Laboy Pick 2026-04-22 #37.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-22%20%2337.html",
-      "type": "record",
-      "subtype": "my_record",
-      "date": "2026-04-22"
-    },
-    {
       "name": "Laboy Pick 2026-04-25 #45.jpg",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-25%20%2345.jpg",
       "type": "mypick_img",
-      "subtype": "today",
+      "subtype": "archive",
       "date": "2026-04-25",
       "game": "PHILLIES @ BRAVES"
     },
@@ -154,7 +154,7 @@
       "name": "Laboy Pick 2026-04-25 #44.jpg",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-25%20%2344.jpg",
       "type": "mypick_img",
-      "subtype": "today",
+      "subtype": "archive",
       "date": "2026-04-25",
       "game": "MARINERS @ CARDINALS"
     },
@@ -381,22 +381,6 @@
       "subtype": "archive",
       "date": "2026-04-16",
       "game": "MARINERS @ PADRES"
-    },
-    {
-      "name": "Laboy Pick 2026-04-16 #17.jpg",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-16%20%2317.jpg",
-      "type": "mypick_img",
-      "subtype": "archive",
-      "date": "2026-04-16",
-      "game": "RAYS @ WHITE SOX"
-    },
-    {
-      "name": "Laboy Pick 2026-04-16 #16.jpg",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-16%20%2316.jpg",
-      "type": "mypick_img",
-      "subtype": "archive",
-      "date": "2026-04-16",
-      "game": "BLUE JAYS @ BREWERS"
     }
   ]
 }
