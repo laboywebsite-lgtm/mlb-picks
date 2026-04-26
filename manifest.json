@@ -3,17 +3,17 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
-      "name": "Laboy Pick 2026-04-26 #46.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-26%20%2346.html",
-      "type": "record",
-      "subtype": "my_record",
-      "date": "2026-04-26"
-    },
-    {
       "name": "Laboy Picks 2026-04-26-bac7767.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Picks%202026-04-26-bac7767.html",
       "type": "picks",
       "subtype": "",
+      "date": "2026-04-26"
+    },
+    {
+      "name": "Laboy Pick 2026-04-26 #46.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-26%20%2346.html",
+      "type": "record",
+      "subtype": "my_record",
       "date": "2026-04-26"
     },
     {
@@ -141,6 +141,14 @@
       "type": "record",
       "subtype": "my_record",
       "date": "2026-04-23"
+    },
+    {
+      "name": "Laboy Pick 2026-04-26 #47.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-26%20%2347.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-04-26",
+      "game": "ROCKIES @ METS"
     },
     {
       "name": "Laboy Pick 2026-04-26 #46.jpg",
