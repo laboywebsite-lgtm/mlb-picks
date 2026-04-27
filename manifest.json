@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Debug 2026-04-27-bfe7cef.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Debug%202026-04-27-bfe7cef.html",
+      "type": "debug",
+      "subtype": "",
+      "date": "2026-04-27"
+    },
+    {
       "name": "Laboy Picks 2026-04-26-bac7767.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Picks%202026-04-26-bac7767.html",
       "type": "picks",
@@ -136,17 +143,10 @@
       "date": "2026-04-23"
     },
     {
-      "name": "Laboy Pick 2026-04-23 #37.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-23%20%2337.html",
-      "type": "record",
-      "subtype": "my_record",
-      "date": "2026-04-23"
-    },
-    {
       "name": "Laboy Pick 2026-04-26 #47.jpg",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-26%20%2347.jpg",
       "type": "mypick_img",
-      "subtype": "today",
+      "subtype": "archive",
       "date": "2026-04-26",
       "game": "ROCKIES @ METS"
     },
@@ -154,7 +154,7 @@
       "name": "Laboy Pick 2026-04-26 #46.jpg",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-26%20%2346.jpg",
       "type": "mypick_img",
-      "subtype": "today",
+      "subtype": "archive",
       "date": "2026-04-26",
       "game": "RED SOX @ ORIOLES"
     },
@@ -381,22 +381,6 @@
       "subtype": "archive",
       "date": "2026-04-17",
       "game": "GIANTS @ NATIONALS"
-    },
-    {
-      "name": "Laboy Pick 2026-04-17 #21.jpg",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-17%20%2321.jpg",
-      "type": "mypick_img",
-      "subtype": "archive",
-      "date": "2026-04-17",
-      "game": "PADRES VS. ANGELS"
-    },
-    {
-      "name": "Laboy Pick 2026-04-16 #18.jpg",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-16%20%2318.jpg",
-      "type": "mypick_img",
-      "subtype": "archive",
-      "date": "2026-04-16",
-      "game": "MARINERS @ PADRES"
     }
   ]
 }
