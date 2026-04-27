@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Pick 2026-04-27 #48.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-27%20%2348.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-04-27"
+    },
+    {
       "name": "Laboy Debug 2026-04-27-bfe7cef.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Debug%202026-04-27-bfe7cef.html",
       "type": "debug",
@@ -136,11 +143,12 @@
       "date": "2026-04-23"
     },
     {
-      "name": "Laboy Pick 2026-04-23 #38.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-23%20%2338.html",
-      "type": "record",
-      "subtype": "my_record",
-      "date": "2026-04-23"
+      "name": "Laboy Pick 2026-04-27 #48.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-27%20%2348.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-04-27",
+      "game": "ANGELS @ WHITE SOX"
     },
     {
       "name": "Laboy Pick 2026-04-26 #47.jpg",
