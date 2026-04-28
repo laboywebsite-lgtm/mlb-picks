@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Lines 2026-04-28-fb0bb30.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Lines%202026-04-28-fb0bb30.html",
+      "type": "lines",
+      "subtype": "",
+      "date": "2026-04-28"
+    },
+    {
       "name": "Laboy Debug 2026-04-27-bfe7cef.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Debug%202026-04-27-bfe7cef.html",
       "type": "debug",
@@ -136,29 +143,6 @@
       "date": "2026-04-23"
     },
     {
-      "name": "Laboy Pick 2026-04-23 #39.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-23%20%2339.html",
-      "type": "record",
-      "subtype": "my_record",
-      "date": "2026-04-23"
-    },
-    {
-      "name": "Laboy Pick 2026-04-27 #49.jpg",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-27%20%2349.jpg",
-      "type": "mypick_img",
-      "subtype": "today",
-      "date": "2026-04-27",
-      "game": "YANKEES @ RANGERS"
-    },
-    {
-      "name": "Laboy Pick 2026-04-27 #48.jpg",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-27%20%2348.jpg",
-      "type": "mypick_img",
-      "subtype": "today",
-      "date": "2026-04-27",
-      "game": "ANGELS @ WHITE SOX"
-    },
-    {
       "name": "Laboy Pick 2026-04-26 #47.jpg",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-26%20%2347.jpg",
       "type": "mypick_img",
@@ -173,6 +157,22 @@
       "subtype": "archive",
       "date": "2026-04-26",
       "game": "RED SOX @ ORIOLES"
+    },
+    {
+      "name": "Laboy Pick 2026-04-27 #49.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-27%20%2349.jpg",
+      "type": "mypick_img",
+      "subtype": "archive",
+      "date": "2026-04-27",
+      "game": "YANKEES @ RANGERS"
+    },
+    {
+      "name": "Laboy Pick 2026-04-27 #48.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-27%20%2348.jpg",
+      "type": "mypick_img",
+      "subtype": "archive",
+      "date": "2026-04-27",
+      "game": "ANGELS @ WHITE SOX"
     },
     {
       "name": "Laboy Pick 2026-04-25 #45.jpg",
@@ -381,22 +381,6 @@
       "subtype": "archive",
       "date": "2026-04-18",
       "game": "PADRES VS. ANGELS"
-    },
-    {
-      "name": "Laboy Pick 2026-04-17 #20.jpg",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-17%20%2320.jpg",
-      "type": "mypick_img",
-      "subtype": "archive",
-      "date": "2026-04-17",
-      "game": "BREWERS @ MARLINS"
-    },
-    {
-      "name": "Laboy Pick 2026-04-17 #19.jpg",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-17%20%2319.jpg",
-      "type": "mypick_img",
-      "subtype": "archive",
-      "date": "2026-04-17",
-      "game": "GIANTS @ NATIONALS"
     }
   ]
 }
