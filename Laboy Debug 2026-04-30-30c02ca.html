@@ -6,49 +6,93 @@
 <title>Laboy Debug · THURSDAY, APRIL 30 · 2026</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <style>
-  :root{--bg:#0a0a0a;--card:#222222;--accent:#f07820;--green:#22c55e;--red:#ef4444;
-        --text:#f1f5f9;--muted:#94a3b8;--border:#2a2a2a;}
+  :root{
+    --bg:#080808;--card:#0f0f0f;--card2:#141414;--inner:#1a1a1a;
+    --accent:#f07820;--green:#22c55e;--red:#ef4444;
+    --text:#f1f5f9;--muted:#64748b;--muted2:#94a3b8;--border:#202020;
+  }
   *{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;padding:0 0 40px}
-  .header{background:#000;padding:16px 20px 16px;text-align:center;border-bottom:2px solid var(--accent)}
-  .header img.logo{height:150px;width:auto;display:block;margin:0 auto 0}
-  .header h1{font-size:2rem;font-weight:900;letter-spacing:3px;color:var(--accent)}
-  .header .date{color:var(--muted);margin-top:6px;font-size:0.9rem;letter-spacing:1px}
-  .section{max-width:700px;margin:0 auto;padding:32px 16px 0}
-  .section-title{font-size:0.75rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;
-    color:var(--muted);margin:28px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--border)}
-  .pick-card{background:var(--card);border-radius:14px;padding:18px;margin-bottom:14px;
-    border-left:4px solid var(--accent);
-    box-shadow:0 2px 0 rgba(255,255,255,0.07) inset,
-               0 -1px 0 rgba(0,0,0,0.5) inset,
-               0 8px 32px rgba(0,0,0,0.85),
-               0 2px 8px rgba(0,0,0,0.6)}
-  .pick-time{font-size:0.7rem;color:var(--muted);margin-bottom:8px}
+  body{
+    background:var(--bg);color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,'Inter','Segoe UI',sans-serif;
+    padding:0 0 56px;
+  }
+  /* ── Header ── */
+  .header{
+    background:#000;padding:18px 24px 14px;text-align:center;
+    border-bottom:1px solid #1a1a1a;
+    position:relative;
+  }
+  .header::after{
+    content:'';position:absolute;bottom:-1px;left:50%;transform:translateX(-50%);
+    width:120px;height:2px;background:var(--accent);border-radius:1px;
+  }
+  .header img.logo{height:110px;width:auto;display:block;margin:0 auto 2px}
+  .header h1{font-size:1.8rem;font-weight:900;letter-spacing:4px;color:var(--accent)}
+  .header .date{
+    color:var(--muted);margin-top:4px;font-size:0.72rem;
+    letter-spacing:2px;text-transform:uppercase;
+  }
+  /* ── Section wrapper ── */
+  .section{max-width:800px;margin:0 auto;padding:28px 18px 0}
+  .section-title{
+    font-size:0.65rem;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;
+    color:var(--muted);margin:24px 0 10px;
+    display:flex;align-items:center;gap:8px;
+  }
+  .section-title::after{
+    content:'';flex:1;height:1px;background:var(--border);
+  }
+  /* ── Pick card ── */
+  .pick-card{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:16px;
+    padding:16px 18px 14px;
+    margin-bottom:16px;
+    overflow:hidden;
+    box-shadow:0 4px 24px rgba(0,0,0,0.6);
+  }
+  .pick-time{font-size:0.68rem;color:var(--muted);margin-bottom:6px;letter-spacing:.5px}
   .teams-row{display:flex;align-items:center;gap:12px;margin-bottom:14px}
-  .teams-row img{width:52px;height:52px;object-fit:contain}
-  .game-label{font-size:0.8rem;color:var(--muted);margin-bottom:4px}
-  .pick-label{font-size:1.3rem;font-weight:800}
-  .odds-badge{background:#f0782022;color:var(--accent);border-radius:6px;padding:2px 8px;font-size:1rem}
-  .stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
-  .stat{background:#181818;border-radius:8px;padding:8px;text-align:center;
-    box-shadow:0 2px 6px rgba(0,0,0,0.6) inset,0 1px 0 rgba(255,255,255,0.03)}
-  .stat-label{font-size:0.6rem;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin-bottom:3px}
-  .stat-val{font-size:0.95rem;font-weight:700}
-  .no-picks{color:var(--muted);text-align:center;padding:24px}
-  .line-card{background:var(--card);border-radius:12px;padding:14px 16px;margin-bottom:10px;
-    box-shadow:0 2px 0 rgba(255,255,255,0.07) inset,
-               0 -1px 0 rgba(0,0,0,0.5) inset,
-               0 8px 32px rgba(0,0,0,0.85),
-               0 2px 8px rgba(0,0,0,0.6)}
+  .teams-row img{width:48px;height:48px;object-fit:contain}
+  .pick-main{flex:1;min-width:0}
+  .game-label{font-size:0.78rem;color:var(--muted);margin-bottom:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .pick-label{font-size:1.25rem;font-weight:800;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .odds-badge{
+    background:#f0782018;color:var(--accent);
+    border:1px solid #f0782030;
+    border-radius:5px;padding:2px 8px;font-size:0.85rem;font-weight:700;
+  }
+  /* ── Stat chips ── */
+  .stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+  .stat{
+    background:var(--inner);border:1px solid var(--border);
+    border-radius:8px;padding:8px 6px;text-align:center;
+  }
+  .stat-label{font-size:0.58rem;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin-bottom:3px}
+  .stat-val{font-size:0.9rem;font-weight:700}
+  /* ── No picks ── */
+  .no-picks{color:var(--muted);text-align:center;padding:32px;font-size:0.85rem}
+  /* ── Lines card ── */
+  .line-card{
+    background:var(--card);border:1px solid var(--border);
+    border-radius:12px;padding:14px 16px;margin-bottom:10px;
+    box-shadow:0 4px 20px rgba(0,0,0,0.5);
+  }
   .line-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
   .team-logo{display:flex;align-items:center;gap:6px;font-size:0.8rem;font-weight:700}
-  .team-logo img{width:36px;height:36px;object-fit:contain}
-  .line-time{font-size:0.75rem;color:var(--muted)}
-  .sp-row{font-size:0.7rem;color:var(--muted);margin-bottom:8px}
-  .line-stats{display:flex;gap:12px;flex-wrap:wrap;font-size:0.8rem;margin-bottom:4px}
-  .weather-row{font-size:0.75rem;color:var(--muted);margin-top:4px}
-  .mkt-row{font-size:0.75rem;color:#64748b;margin-top:2px}
-  .footer{text-align:center;padding:32px 16px 0;color:var(--muted);font-size:0.8rem}
+  .team-logo img{width:34px;height:34px;object-fit:contain}
+  .line-time{font-size:0.72rem;color:var(--muted)}
+  .sp-row{font-size:0.7rem;color:var(--muted);margin-bottom:6px}
+  .line-stats{display:flex;gap:10px;flex-wrap:wrap;font-size:0.78rem;margin-bottom:4px}
+  .weather-row{font-size:0.72rem;color:var(--muted);margin-top:4px}
+  .mkt-row{font-size:0.72rem;color:#475569;margin-top:2px}
+  /* ── Footer ── */
+  .footer{
+    text-align:center;padding:36px 16px 0;
+    color:#2a2a2a;font-size:0.72rem;letter-spacing:1px;
+  }
   .footer a{color:var(--accent);text-decoration:none}
   .fa-icon{font-size:0.85em;opacity:0.75;margin-right:4px}
   .section-title .fa-icon{font-size:0.9em;opacity:1;margin-right:6px}
@@ -60,61 +104,8 @@
   <div class="date">MLB DEBUG · THURSDAY, APRIL 30 · 2026</div>
 </div>
 <div class="section">
-<div class="section-title" style="display:flex;align-items:center;flex-wrap:wrap;gap:4px"><span><i class="fa-solid fa-microscope fa-icon"></i>MODEL DEBUG · 5 Picks</span><span style="background:#ef444418;color:#ef4444;border-radius:6px;padding:2px 10px;font-size:0.72rem;font-weight:700;margin-left:10px">⚠️ 1 sin lineup confirmado</span><span style="background:#22c55e18;color:#22c55e;border-radius:6px;padding:2px 10px;font-size:0.72rem;font-weight:700;margin-left:6px">✅ 4 con lineup</span></div>
+<div class="section-title" style="display:flex;align-items:center;flex-wrap:wrap;gap:4px"><span><i class="fa-solid fa-microscope fa-icon"></i>MODEL DEBUG · 4 Picks</span><span style="background:#ef444418;color:#ef4444;border-radius:6px;padding:2px 10px;font-size:0.72rem;font-weight:700;margin-left:10px">⚠️ 1 sin lineup confirmado</span><span style="background:#22c55e18;color:#22c55e;border-radius:6px;padding:2px 10px;font-size:0.72rem;font-weight:700;margin-left:6px">✅ 3 con lineup</span></div>
 
-            <div class="pick-card" style="border-left:4px solid #CE1141">
-
-              <!-- ── Lineup warning banner ── -->
-              
-
-              <!-- ── Game header ── -->
-              <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
-                <div style="display:flex;align-items:center;gap:10px">
-                  <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/det.png&w=80&h=80&scale=crop&cquality=40" alt="TIGERS" width="44" height="44" style="object-fit:contain" onerror="this.style.display='none'">
-                  <div>
-                    <div class="pick-time">12:15 PM AST</div>
-                    <div style="font-size:0.92rem;font-weight:700;color:#f1f5f9">TIGERS @ BRAVES</div>
-                  </div>
-                  <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/atl.png&w=80&h=80&scale=crop&cquality=40" alt="BRAVES" width="44" height="44" style="object-fit:contain" onerror="this.style.display='none'">
-                </div>
-                <span style="background:#f0782018;color:#f07820;border-radius:6px;padding:3px 10px;
-                             font-size:0.78rem;font-weight:700;letter-spacing:0.05em">ML</span>
-              </div>
-
-              <!-- ── Pick row ── -->
-              <div style="background:#111111;border-radius:10px;padding:11px 14px;margin-bottom:4px;
-                          box-shadow:0 2px 8px rgba(0,0,0,0.6) inset">
-                <div style="display:flex;justify-content:space-between;align-items:center">
-                  <div>
-                    <div style="font-size:0.6rem;color:#94a3b8;letter-spacing:0.1em;margin-bottom:3px">PICK</div>
-                    <div style="font-size:1.2rem;font-weight:900;color:#f1f5f9">
-                      BRAVES ML&nbsp;<span class="odds-badge">-122</span>
-                    </div>
-                  </div>
-                  <div style="display:flex;gap:14px;text-align:center">
-                    <div class="stat" style="min-width:52px">
-                      <div class="stat-label">EDGE</div>
-                      <div class="stat-val" style="color:#22c55e">+11.0%</div>
-                    </div>
-                    <div class="stat" style="min-width:52px">
-                      <div class="stat-label">EV</div>
-                      <div class="stat-val" style="color:#22c55e">+18.6%</div>
-                    </div>
-                    <div class="stat" style="min-width:52px">
-                      <div class="stat-label">MODELO</div>
-                      <div class="stat-val" style="font-size:0.78rem">65.2%</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div style="margin-top:14px;padding-top:12px;border-top:1px solid #2a2a2a"><div style="font-size:0.6rem;font-weight:700;letter-spacing:0.12em;color:#94a3b8;text-transform:uppercase;margin-bottom:8px">⚾&nbsp;Starting Pitchers</div><div style="display:grid;grid-template-columns:1fr 1fr;gap:8px"><div style="background:#181818;border-radius:8px;padding:9px;box-shadow:0 2px 6px rgba(0,0,0,0.5) inset"><div style="font-size:0.62rem;color:#94a3b8;margin-bottom:3px;text-transform:uppercase;letter-spacing:0.08em">TIGERS SP </div><div style="font-size:0.88rem;font-weight:700;color:#f1f5f9">FRAMBER VALDEZ</div><div style="font-size:0.75rem;color:#94a3b8;margin-top:3px">xFIP <span style="color:#f1f5f9;font-weight:700">4.08</span> · FIP 3.75</div></div><div style="background:#181818;border-radius:8px;padding:9px;box-shadow:0 2px 6px rgba(0,0,0,0.5) inset"><div style="font-size:0.62rem;color:#94a3b8;margin-bottom:3px;text-transform:uppercase;letter-spacing:0.08em">BRAVES SP </div><div style="font-size:0.88rem;font-weight:700;color:#f1f5f9">BRYCE ELDER</div><div style="font-size:0.75rem;color:#94a3b8;margin-top:3px">xFIP <span style="color:#f1f5f9;font-weight:700">3.55</span> · FIP 2.89</div></div></div></div>
-              <div style="margin-top:14px;padding-top:12px;border-top:1px solid #2a2a2a"><div style="font-size:0.6rem;font-weight:700;letter-spacing:0.12em;color:#94a3b8;text-transform:uppercase;margin-bottom:8px">🏏&nbsp;Offense · wRC+ &amp; Platoon</div><div style="display:grid;grid-template-columns:1fr 1fr;gap:8px"><div style="background:#181818;border-radius:8px;padding:9px;box-shadow:0 2px 6px rgba(0,0,0,0.5) inset"><div style="font-size:0.62rem;color:#94a3b8;margin-bottom:3px;text-transform:uppercase;letter-spacing:0.08em">TIGERS Offense</div><div style="font-size:0.78rem;margin-bottom:2px">wRC+ <span style="color:#f1f5f9;font-weight:700">102</span> <span style="color:#22c55e;font-size:0.65rem">📋 LINEUP</span></div><div style="background:#2a2a2a;border-radius:3px;height:5px;margin-top:4px"><div style="background:#f1f5f9;height:5px;border-radius:3px;width:50%"></div></div><div style="font-size:0.73rem;color:#94a3b8;margin-top:5px">BP xFIP <span style="color:#f1f5f9;font-weight:700">4.23</span>&nbsp;·&nbsp;Proj <span style="color:#f07820;font-weight:700">3.698R</span>&nbsp;·&nbsp;14d <span style="color:#22c55e;font-weight:700">108</span><span style="color:#475569;font-size:0.65rem">&thinsp;PA=468</span></div></div><div style="background:#181818;border-radius:8px;padding:9px;box-shadow:0 2px 6px rgba(0,0,0,0.5) inset"><div style="font-size:0.62rem;color:#94a3b8;margin-bottom:3px;text-transform:uppercase;letter-spacing:0.08em">BRAVES Offense</div><div style="font-size:0.78rem;margin-bottom:2px">wRC+ <span style="color:#f1f5f9;font-weight:700">112</span> <span style="color:#22c55e;font-size:0.65rem">📋 LINEUP</span></div><div style="background:#2a2a2a;border-radius:3px;height:5px;margin-top:4px"><div style="background:#22c55e;height:5px;border-radius:3px;width:65%"></div></div><div style="font-size:0.73rem;color:#94a3b8;margin-top:5px">BP xFIP <span style="color:#f1f5f9;font-weight:700">4.18</span>&nbsp;·&nbsp;Proj <span style="color:#f07820;font-weight:700">5.465R</span>&nbsp;·&nbsp;14d <span style="color:#22c55e;font-weight:700">128</span><span style="color:#475569;font-size:0.65rem">&thinsp;PA=432</span></div></div></div></div>
-              <div style="margin-top:14px;padding-top:12px;border-top:1px solid #2a2a2a"><div style="font-size:0.6rem;font-weight:700;letter-spacing:0.12em;color:#94a3b8;text-transform:uppercase;margin-bottom:8px">📈&nbsp;Recent Form · L10</div><div style="display:grid;grid-template-columns:1fr 1fr;gap:8px"><div style="background:#181818;border-radius:8px;padding:9px;box-shadow:0 2px 6px rgba(0,0,0,0.5) inset"><div style="font-size:0.62rem;color:#94a3b8;margin-bottom:3px;text-transform:uppercase;letter-spacing:0.08em">TIGERS</div><span style="color:#f1f5f9;font-weight:700;font-size:0.85rem">4-6</span><span style="color:#94a3b8;font-size:0.75rem"> L10</span><div style="font-size:0.73rem;margin-top:4px;display:flex;gap:8px;flex-wrap:wrap"><span style="color:#ef4444;font-weight:600">RD -0.9</span><span style="color:#94a3b8">1d rest</span><span style="background:#2a2a2a;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:0.7rem;font-weight:700">— AVG</span></div></div><div style="background:#181818;border-radius:8px;padding:9px;box-shadow:0 2px 6px rgba(0,0,0,0.5) inset"><div style="font-size:0.62rem;color:#94a3b8;margin-bottom:3px;text-transform:uppercase;letter-spacing:0.08em">BRAVES</div><span style="color:#f1f5f9;font-weight:700;font-size:0.85rem">8-2</span><span style="color:#94a3b8;font-size:0.75rem"> L10</span><div style="font-size:0.73rem;margin-top:4px;display:flex;gap:8px;flex-wrap:wrap"><span style="color:#22c55e;font-weight:600">RD +1.4</span><span style="color:#94a3b8">1d rest</span><span style="background:#22c55e20;color:#22c55e;border-radius:4px;padding:1px 6px;font-size:0.7rem;font-weight:700">🔥 HOT</span></div></div></div></div>
-              <div style="margin-top:14px;padding-top:12px;border-top:1px solid #2a2a2a"><div style="font-size:0.6rem;font-weight:700;letter-spacing:0.12em;color:#94a3b8;text-transform:uppercase;margin-bottom:8px">🌤️&nbsp;Contexto</div><div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px"><div style="background:#181818;border-radius:8px;padding:9px;box-shadow:0 2px 6px rgba(0,0,0,0.5) inset"><div style="font-size:0.62rem;color:#94a3b8;margin-bottom:3px;text-transform:uppercase;letter-spacing:0.08em">Park Factor</div><div style="font-size:1rem;font-weight:800;color:#ef4444">1.089</div><div style="font-size:0.67rem;color:#94a3b8">base 1.0</div></div><div style="background:#181818;border-radius:8px;padding:9px;box-shadow:0 2px 6px rgba(0,0,0,0.5) inset"><div style="font-size:0.62rem;color:#94a3b8;margin-bottom:3px;text-transform:uppercase;letter-spacing:0.08em">Clima</div><div style="font-size:0.78rem;font-weight:600;color:#f1f5f9">67°F  OUT 10mph  ·  NW</div></div><div style="background:#181818;border-radius:8px;padding:9px;box-shadow:0 2px 6px rgba(0,0,0,0.5) inset"><div style="font-size:0.62rem;color:#94a3b8;margin-bottom:3px;text-transform:uppercase;letter-spacing:0.08em">Umpire HP</div><div style="font-size:0.75rem;font-weight:700;color:#f1f5f9;line-height:1.3">ROBERTO ORTIZ</div><div style="font-size:0.7rem;color:#22c55e">-3.0% R</div></div></div><div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:8px"><div style="background:#181818;border-radius:8px;padding:9px;box-shadow:0 2px 6px rgba(0,0,0,0.5) inset"><div style="font-size:0.62rem;color:#94a3b8;margin-bottom:3px;text-transform:uppercase;letter-spacing:0.08em">Standings TIGERS</div><div style="font-size:0.9rem;font-weight:800;color:#94a3b8">48.4%</div><div style="font-size:0.67rem;color:#94a3b8">factor 0.997</div></div><div style="background:#181818;border-radius:8px;padding:9px;box-shadow:0 2px 6px rgba(0,0,0,0.5) inset"><div style="font-size:0.62rem;color:#94a3b8;margin-bottom:3px;text-transform:uppercase;letter-spacing:0.08em">Standings BRAVES</div><div style="font-size:0.9rem;font-weight:800;color:#22c55e">71.0%</div><div style="font-size:0.67rem;color:#94a3b8">factor 1.042</div></div><div style="background:#181818;border-radius:8px;padding:9px;box-shadow:0 2px 6px rgba(0,0,0,0.5) inset"><div style="font-size:0.62rem;color:#94a3b8;margin-bottom:3px;text-transform:uppercase;letter-spacing:0.08em">BP Fatigue Away</div><div style="font-size:0.9rem;font-weight:800;color:#22c55e">6.7 IP</div><div style="font-size:0.67rem;color:#94a3b8">3 días</div></div><div style="background:#181818;border-radius:8px;padding:9px;box-shadow:0 2px 6px rgba(0,0,0,0.5) inset"><div style="font-size:0.62rem;color:#94a3b8;margin-bottom:3px;text-transform:uppercase;letter-spacing:0.08em">BP Fatigue Home</div><div style="font-size:0.9rem;font-weight:800;color:#22c55e">7.7 IP</div><div style="font-size:0.67rem;color:#94a3b8">3 días</div></div></div><div style="display:grid;grid-template-columns:1fr 1fr;gap:8px"><div style="background:#181818;border-radius:8px;padding:9px;box-shadow:0 2px 6px rgba(0,0,0,0.5) inset"><div style="font-size:0.62rem;color:#94a3b8;margin-bottom:3px;text-transform:uppercase;letter-spacing:0.08em">ERA Reciente TIG SP</div><div style="font-size:0.9rem;font-weight:800;color:#94a3b8"><div>3.84</div><div style="font-size:0.67rem;color:#94a3b8">5gs/28IP</div></div><div style="background:#181818;border-radius:8px;padding:9px;box-shadow:0 2px 6px rgba(0,0,0,0.5) inset"><div style="font-size:0.62rem;color:#94a3b8;margin-bottom:3px;text-transform:uppercase;letter-spacing:0.08em">ERA Reciente BRA SP</div><div style="font-size:0.9rem;font-weight:800;color:#22c55e"><div>2.43</div><div style="font-size:0.67rem;color:#94a3b8">5gs/30IP</div></div></div></div>
-              <div style="margin-top:14px;padding-top:12px;border-top:1px solid #2a2a2a"><div style="font-size:0.6rem;font-weight:700;letter-spacing:0.12em;color:#94a3b8;text-transform:uppercase;margin-bottom:8px">🎯&nbsp;Model Output</div><div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:8px"><div style="background:#181818;border-radius:8px;padding:9px;box-shadow:0 2px 6px rgba(0,0,0,0.5) inset"><div style="font-size:0.62rem;color:#94a3b8;margin-bottom:3px;text-transform:uppercase;letter-spacing:0.08em">Total Proyectado</div><div style="font-size:1.15rem;font-weight:900;color:#f07820">9.16</div><div style="font-size:0.7rem;color:#94a3b8">O 9.0</div></div><div style="background:#181818;border-radius:8px;padding:9px;box-shadow:0 2px 6px rgba(0,0,0,0.5) inset"><div style="font-size:0.62rem;color:#94a3b8;margin-bottom:3px;text-transform:uppercase;letter-spacing:0.08em">Spread Modelo</div><div style="font-size:0.88rem;font-weight:700;color:#f1f5f9">BRAVES -1.5</div></div><div style="background:#181818;border-radius:8px;padding:9px;box-shadow:0 2px 6px rgba(0,0,0,0.5) inset"><div style="font-size:0.62rem;color:#94a3b8;margin-bottom:3px;text-transform:uppercase;letter-spacing:0.08em">ML TIGERS</div><div style="font-size:0.88rem;font-weight:700;color:#f1f5f9">+204</div><div style="font-size:0.68rem;color:#94a3b8">32.9% win</div></div><div style="background:#181818;border-radius:8px;padding:9px;box-shadow:0 2px 6px rgba(0,0,0,0.5) inset"><div style="font-size:0.62rem;color:#94a3b8;margin-bottom:3px;text-transform:uppercase;letter-spacing:0.08em">ML BRAVES</div><div style="font-size:0.88rem;font-weight:700;color:#f1f5f9">-204</div><div style="font-size:0.68rem;color:#94a3b8">67.1% win</div></div></div></div>
-              
-            </div>
             <div class="pick-card" style="border-left:4px solid #C41E3A">
 
               <!-- ── Lineup warning banner ── -->
@@ -300,7 +291,7 @@
                   <div>
                     <div style="font-size:0.6rem;color:#94a3b8;letter-spacing:0.1em;margin-bottom:3px">PICK</div>
                     <div style="font-size:1.2rem;font-weight:900;color:#f1f5f9">
-                      Over 9.0&nbsp;<span class="odds-badge">-102</span>
+                      Over 9.0&nbsp;<span class="odds-badge">-101</span>
                     </div>
                   </div>
                   <div style="display:flex;gap:14px;text-align:center">
@@ -310,7 +301,7 @@
                     </div>
                     <div class="stat" style="min-width:52px">
                       <div class="stat-label">EV</div>
-                      <div class="stat-val" style="color:#22c55e">+43.3%</div>
+                      <div class="stat-val" style="color:#22c55e">+43.9%</div>
                     </div>
                     <div class="stat" style="min-width:52px">
                       <div class="stat-label">MODELO</div>
