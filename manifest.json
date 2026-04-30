@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Picks 2026-04-30-30c02ca.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Picks%202026-04-30-30c02ca.html",
+      "type": "picks",
+      "subtype": "",
+      "date": "2026-04-30"
+    },
+    {
       "name": "Laboy Debug NIGHT 2026-04-29-db4fdb9.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Debug%20NIGHT%202026-04-29-db4fdb9.html",
       "type": "debug",
@@ -136,17 +143,10 @@
       "date": "2026-04-25"
     },
     {
-      "name": "Laboy Pick 2026-04-24 #43.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-24%20%2343.html",
-      "type": "record",
-      "subtype": "my_record",
-      "date": "2026-04-24"
-    },
-    {
       "name": "Laboy Pick 2026-04-29 #51.jpg",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-29%20%2351.jpg",
       "type": "mypick_img",
-      "subtype": "today",
+      "subtype": "archive",
       "date": "2026-04-29",
       "game": "YANKEES @ RANGERS"
     },
@@ -154,7 +154,7 @@
       "name": "Laboy Pick 2026-04-29 #50.jpg",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-29%20%2350.jpg",
       "type": "mypick_img",
-      "subtype": "today",
+      "subtype": "archive",
       "date": "2026-04-29",
       "game": "RAYS @ GUARDIANS"
     },
@@ -381,22 +381,6 @@
       "subtype": "archive",
       "date": "2026-04-18",
       "game": "CARDINALS @ ASTROS"
-    },
-    {
-      "name": "Laboy Pick 2026-04-18 #22.jpg",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-18%20%2322.jpg",
-      "type": "mypick_img",
-      "subtype": "archive",
-      "date": "2026-04-18",
-      "game": "METS vs. CUBS"
-    },
-    {
-      "name": "Laboy Pick 2026-04-18 #21.jpg",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-18%20%2321.jpg",
-      "type": "mypick_img",
-      "subtype": "archive",
-      "date": "2026-04-18",
-      "game": "PADRES VS. ANGELS"
     }
   ]
 }
