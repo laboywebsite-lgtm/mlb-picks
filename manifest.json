@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Pick 2026-05-02 #57.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-02%20%2357.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-05-02"
+    },
+    {
       "name": "Laboy Pick 2026-05-02 #56.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-02%20%2356.html",
       "type": "record",
@@ -136,11 +143,12 @@
       "date": "2026-04-28"
     },
     {
-      "name": "Laboy Debug 2026-04-27-bfe7cef.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Debug%202026-04-27-bfe7cef.html",
-      "type": "debug",
-      "subtype": "",
-      "date": "2026-04-27"
+      "name": "Laboy Pick 2026-05-02 #57.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-02%20%2357.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-05-02",
+      "game": "REDS @ PIRATES"
     },
     {
       "name": "Laboy Pick 2026-05-02 #56.jpg",
