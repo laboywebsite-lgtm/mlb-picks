@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Record Card 2026-05-01-b80eedd.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Record%20Card%202026-05-01-b80eedd.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-05-01"
+    },
+    {
       "name": "Laboy Debug 2026-05-01-b80eedd.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Debug%202026-05-01-b80eedd.html",
       "type": "debug",
@@ -136,11 +143,20 @@
       "date": "2026-04-26"
     },
     {
-      "name": "Laboy Debug 2026-04-26-bac7767.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Debug%202026-04-26-bac7767.html",
-      "type": "debug",
-      "subtype": "",
-      "date": "2026-04-26"
+      "name": "Laboy Pick 2025-05-01 #54.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202025-05-01%20%2354.jpg",
+      "type": "mypick_img",
+      "subtype": "archive",
+      "date": "2025-05-01",
+      "game": "DODGERS @ CARDINALS"
+    },
+    {
+      "name": "Laboy Pick 2025-05-01 #53.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202025-05-01%20%2353.jpg",
+      "type": "mypick_img",
+      "subtype": "archive",
+      "date": "2025-05-01",
+      "game": "BLUE JAYS @ TWINS"
     },
     {
       "name": "Laboy Pick 2026-04-30 #52.jpg",
@@ -365,22 +381,6 @@
       "subtype": "archive",
       "date": "2026-04-19",
       "game": "METS vs. CUBS"
-    },
-    {
-      "name": "Laboy Pick 2026-04-19 #25.jpg",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-19%20%2325.jpg",
-      "type": "mypick_img",
-      "subtype": "archive",
-      "date": "2026-04-19",
-      "game": "BREWERS vs. MARLINS"
-    },
-    {
-      "name": "Laboy Pick 2026-04-19 #24.jpg",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-19%20%2324.jpg",
-      "type": "mypick_img",
-      "subtype": "archive",
-      "date": "2026-04-19",
-      "game": "GIANTS vs. NATIONALS"
     }
   ]
 }
