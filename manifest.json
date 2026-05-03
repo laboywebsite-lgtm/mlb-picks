@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Pick 2026-05-03 #61.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-03%20%2361.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-05-03"
+    },
+    {
       "name": "Laboy Pick 2026-05-03 #60.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-03%20%2360.html",
       "type": "record",
@@ -136,11 +143,12 @@
       "date": "2026-05-01"
     },
     {
-      "name": "Laboy Pick 2026-04-30 #52.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-30%20%2352.html",
-      "type": "record",
-      "subtype": "my_record",
-      "date": "2026-04-30"
+      "name": "Laboy Pick 2026-05-03 #61.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-03%20%2361.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-05-03",
+      "game": "GUARDIANS @ ATHLETICS"
     },
     {
       "name": "Laboy Pick 2026-05-03 #60.jpg",
