@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Pick 2026-05-03 #60.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-03%20%2360.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-05-03"
+    },
+    {
       "name": "Laboy Debug DAY 2026-05-03 S3-de74f93.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Debug%20DAY%202026-05-03%20S3-de74f93.html",
       "type": "debug",
@@ -136,11 +143,12 @@
       "date": "2026-04-30"
     },
     {
-      "name": "Laboy Debug 2026-04-30-30c02ca.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Debug%202026-04-30-30c02ca.html",
-      "type": "debug",
-      "subtype": "",
-      "date": "2026-04-30"
+      "name": "Laboy Pick 2026-05-03 #60.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-03%20%2360.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-05-03",
+      "game": "METS @ ANGELS"
     },
     {
       "name": "Laboy Pick 2026-05-03 #59.jpg",
