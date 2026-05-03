@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Pick 2026-05-03 #58.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-03%20%2358.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-05-03"
+    },
+    {
       "name": "Laboy Debug DAY 2026-05-03-cf25e31.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Debug%20DAY%202026-05-03-cf25e31.html",
       "type": "debug",
@@ -136,11 +143,12 @@
       "date": "2026-04-29"
     },
     {
-      "name": "Laboy Pick 2026-04-29 #50.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-29%20%2350.html",
-      "type": "record",
-      "subtype": "my_record",
-      "date": "2026-04-29"
+      "name": "Laboy Pick 2026-05-03 #58.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-03%20%2358.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-05-03",
+      "game": "BLUE JAYS @ TWINS"
     },
     {
       "name": "Laboy Pick 2026-05-02 #57.jpg",
