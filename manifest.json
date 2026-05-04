@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Debug 2026-05-04 S5-607233c.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Debug%202026-05-04%20S5-607233c.html",
+      "type": "debug",
+      "subtype": "",
+      "date": "2026-05-04"
+    },
+    {
       "name": "Laboy Debug 2026-05-04 S4-b25443e.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Debug%202026-05-04%20S4-b25443e.html",
       "type": "debug",
@@ -131,13 +138,6 @@
     {
       "name": "Laboy Pick 2026-05-02 #57.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-02%20%2357.html",
-      "type": "record",
-      "subtype": "my_record",
-      "date": "2026-05-02"
-    },
-    {
-      "name": "Laboy Pick 2026-05-02 #56.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-02%20%2356.html",
       "type": "record",
       "subtype": "my_record",
       "date": "2026-05-02"
