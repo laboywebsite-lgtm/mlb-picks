@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Pick 2026-05-06 #66.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-06%20%2366.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-05-06"
+    },
+    {
       "name": "Laboy Debug DAY 2026-05-06 S6-dcd49da.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Debug%20DAY%202026-05-06%20S6-dcd49da.html",
       "type": "debug",
@@ -136,11 +143,12 @@
       "date": "2026-05-03"
     },
     {
-      "name": "Laboy Pick 2026-05-03 #60.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-03%20%2360.html",
-      "type": "record",
-      "subtype": "my_record",
-      "date": "2026-05-03"
+      "name": "Laboy Pick 2026-05-06 #66.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-06%20%2366.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-05-06",
+      "game": "DODGERS @ ASTROS"
     },
     {
       "name": "Laboy Pick 2026-05-05 #65.jpg",
