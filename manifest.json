@@ -3,6 +3,13 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Debug DAY 2026-05-06-76e9be7.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Debug%20DAY%202026-05-06-76e9be7.html",
+      "type": "debug",
+      "subtype": "",
+      "date": "2026-05-06"
+    },
+    {
       "name": "Laboy Debug 2026-05-05-6c60cba.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Debug%202026-05-05-6c60cba.html",
       "type": "debug",
@@ -136,11 +143,20 @@
       "date": "2026-05-03"
     },
     {
-      "name": "Laboy Debug DAY 2026-05-03-cf25e31.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Debug%20DAY%202026-05-03-cf25e31.html",
-      "type": "debug",
-      "subtype": "",
-      "date": "2026-05-03"
+      "name": "Laboy Pick 2026-05-05 #65.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-05%20%2365.jpg",
+      "type": "mypick_img",
+      "subtype": "archive",
+      "date": "2026-05-05",
+      "game": "BLUE JAYS @ RAYS"
+    },
+    {
+      "name": "Laboy Pick 2026-05-05 #64.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-05%20%2364.jpg",
+      "type": "mypick_img",
+      "subtype": "archive",
+      "date": "2026-05-05",
+      "game": "ATHLETICS @ PHILLIES"
     },
     {
       "name": "Laboy Pick 2026-05-04 #63.jpg",
@@ -365,22 +381,6 @@
       "subtype": "archive",
       "date": "2026-04-22",
       "game": "PADRES @ ROCKIES"
-    },
-    {
-      "name": "Laboy Pick 2026-04-22 #35.jpg",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-22%20%2335.jpg",
-      "type": "mypick_img",
-      "subtype": "archive",
-      "date": "2026-04-22",
-      "game": "BLUE JAYS @ ANGELS"
-    },
-    {
-      "name": "Laboy Pick 2026-04-22 #34.jpg",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-22%20%2334.jpg",
-      "type": "mypick_img",
-      "subtype": "archive",
-      "date": "2026-04-22",
-      "game": "ASTROS @ GUARDIANS"
     }
   ]
 }
