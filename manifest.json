@@ -3,6 +3,15 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Pick 2026-05-06 #68.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-06%20%2368.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-05-06",
+      "session": "",
+      "slate": ""
+    },
+    {
       "name": "Laboy Debug NIGHT 2026-05-06 S4-922e203.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Debug%20NIGHT%202026-05-06%20S4-922e203.html",
       "type": "debug",
@@ -174,13 +183,12 @@
       "slate": "S5"
     },
     {
-      "name": "Laboy Debug 2026-05-04 S4-b25443e.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Debug%202026-05-04%20S4-b25443e.html",
-      "type": "debug",
-      "subtype": "",
-      "date": "2026-05-04",
-      "session": "full",
-      "slate": "S4"
+      "name": "Laboy Pick 2026-05-06 #68.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-06%20%2368.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-05-06",
+      "game": "TWINS @ NATIONALS"
     },
     {
       "name": "Laboy Pick 2026-05-06 #67.jpg",
