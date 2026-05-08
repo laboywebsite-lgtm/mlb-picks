@@ -3,6 +3,15 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Pick 2026-05-08 #71.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-08%20%2371.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-05-08",
+      "session": "",
+      "slate": ""
+    },
+    {
       "name": "Laboy Lines 2026-05-08-6e575bb.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Lines%202026-05-08-6e575bb.html",
       "type": "lines",
@@ -174,13 +183,12 @@
       "slate": ""
     },
     {
-      "name": "Laboy Pick 2026-05-06 #66.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-06%20%2366.html",
-      "type": "record",
-      "subtype": "my_record",
-      "date": "2026-05-06",
-      "session": "",
-      "slate": ""
+      "name": "Laboy Pick 2026-05-08 #71.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-08%20%2371.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-05-08",
+      "game": "RAYS @ RED SOX"
     },
     {
       "name": "Laboy Pick 2026-05-07 #70.jpg",
