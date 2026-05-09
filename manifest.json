@@ -3,6 +3,15 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Pick 2026-05-09 #74.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-09%20%2374.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-05-09",
+      "session": "",
+      "slate": ""
+    },
+    {
       "name": "Laboy Pick 2026-05-09 #73.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-09%20%2373.html",
       "type": "record",
@@ -174,13 +183,12 @@
       "slate": ""
     },
     {
-      "name": "Laboy Record Card 2026-05-06-76e9be7.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Record%20Card%202026-05-06-76e9be7.html",
-      "type": "record",
-      "subtype": "my_record",
-      "date": "2026-05-06",
-      "session": "",
-      "slate": ""
+      "name": "Laboy Pick 2026-05-09 #74.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-09%20%2374.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-05-09",
+      "game": "CARDINALS vs. PADRES"
     },
     {
       "name": "Laboy Pick 2026-05-09 #73.jpg",
