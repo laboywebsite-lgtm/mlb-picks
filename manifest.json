@@ -3,6 +3,15 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Pick 2026-05-08 #72.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-08%20%2372.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-05-08",
+      "session": "",
+      "slate": ""
+    },
+    {
       "name": "Laboy Pick 2026-05-08 #71.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-08%20%2371.html",
       "type": "record",
@@ -174,13 +183,12 @@
       "slate": ""
     },
     {
-      "name": "Laboy Pick 2026-05-06 #67.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-06%20%2367.html",
-      "type": "record",
-      "subtype": "my_record",
-      "date": "2026-05-06",
-      "session": "",
-      "slate": ""
+      "name": "Laboy Pick 2026-05-08 #72.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-08%20%2372.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-05-08",
+      "game": "METS vs. D-BACKS"
     },
     {
       "name": "Laboy Pick 2026-05-08 #71.jpg",
