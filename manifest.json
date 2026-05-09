@@ -3,6 +3,15 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Record Card 2026-05-09-71ffbd2.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Record%20Card%202026-05-09-71ffbd2.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-05-09",
+      "session": "",
+      "slate": ""
+    },
+    {
       "name": "Laboy Pick 2026-05-08 #72.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-08%20%2372.html",
       "type": "record",
@@ -174,19 +183,10 @@
       "slate": "S2"
     },
     {
-      "name": "Laboy Debug NIGHT 2026-05-06-76e9be7.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Debug%20NIGHT%202026-05-06-76e9be7.html",
-      "type": "debug",
-      "subtype": "",
-      "date": "2026-05-06",
-      "session": "night",
-      "slate": ""
-    },
-    {
       "name": "Laboy Pick 2026-05-08 #72.jpg",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-08%20%2372.jpg",
       "type": "mypick_img",
-      "subtype": "today",
+      "subtype": "archive",
       "date": "2026-05-08",
       "game": "METS vs. D-BACKS"
     },
@@ -194,7 +194,7 @@
       "name": "Laboy Pick 2026-05-08 #71.jpg",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-08%20%2371.jpg",
       "type": "mypick_img",
-      "subtype": "today",
+      "subtype": "archive",
       "date": "2026-05-08",
       "game": "RAYS @ RED SOX"
     },
@@ -421,22 +421,6 @@
       "subtype": "archive",
       "date": "2026-04-24",
       "game": "ANGELS @ ROYALS"
-    },
-    {
-      "name": "Laboy Pick 2026-04-24 #42.jpg",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-24%20%2342.jpg",
-      "type": "mypick_img",
-      "subtype": "archive",
-      "date": "2026-04-24",
-      "game": "RED SOX @ ORIOLES"
-    },
-    {
-      "name": "Laboy Pick 2026-04-24 #41.jpg",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-24%20%2341.jpg",
-      "type": "mypick_img",
-      "subtype": "archive",
-      "date": "2026-04-24",
-      "game": "TIGERS @ REDS"
     }
   ]
 }
