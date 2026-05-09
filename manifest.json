@@ -3,6 +3,15 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Pick 2026-05-09 #73.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-09%20%2373.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-05-09",
+      "session": "",
+      "slate": ""
+    },
+    {
       "name": "Laboy Picks 2026-05-09 S2-b6edb39.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Picks%202026-05-09%20S2-b6edb39.html",
       "type": "picks",
@@ -174,13 +183,12 @@
       "slate": ""
     },
     {
-      "name": "Laboy Pick 2026-05-06 #68.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-06%20%2368.html",
-      "type": "record",
-      "subtype": "my_record",
-      "date": "2026-05-06",
-      "session": "",
-      "slate": ""
+      "name": "Laboy Pick 2026-05-09 #73.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-09%20%2373.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-05-09",
+      "game": "CUBS vs. RANGERS"
     },
     {
       "name": "Laboy Pick 2026-05-08 #72.jpg",
