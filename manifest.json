@@ -3,6 +3,15 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Pick 2026-05-10 #76.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-10%20%2376.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-05-10",
+      "session": "",
+      "slate": ""
+    },
+    {
       "name": "Laboy Record Card 2026-05-09-71ffbd2.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Record%20Card%202026-05-09-71ffbd2.html",
       "type": "record",
@@ -174,13 +183,12 @@
       "slate": ""
     },
     {
-      "name": "Laboy Debug DAY 2026-05-07-aa2c128.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Debug%20DAY%202026-05-07-aa2c128.html",
-      "type": "debug",
-      "subtype": "",
-      "date": "2026-05-07",
-      "session": "day",
-      "slate": ""
+      "name": "Laboy Pick 2026-05-10 #76.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-10%20%2376.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "2026-05-10",
+      "game": "MARINERS vs. WHITE SOX"
     },
     {
       "name": "Laboy Pick 2026-05-09 #74.jpg",
