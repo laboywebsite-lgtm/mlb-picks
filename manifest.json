@@ -3,6 +3,15 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Pick 2026-05-12 #80.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-12%20%2380.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-05-12",
+      "session": "",
+      "slate": ""
+    },
+    {
       "name": "Laboy Record Card 2026-05-11-b448514.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Record%20Card%202026-05-11-b448514.html",
       "type": "record",
@@ -174,19 +183,18 @@
       "slate": ""
     },
     {
-      "name": "Laboy Debug NIGHT 2026-05-07 S2-e490b41.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Debug%20NIGHT%202026-05-07%20S2-e490b41.html",
-      "type": "debug",
-      "subtype": "",
-      "date": "2026-05-07",
-      "session": "night",
-      "slate": "S2"
+      "name": "Laboy Pick 2026-05-12 #80.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-12%20%2380.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "80",
+      "game": "ROCKIES vs. PIRATES"
     },
     {
       "name": "Laboy Pick 2026-05-11 #79.jpg",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-11%20%2379.jpg",
       "type": "mypick_img",
-      "subtype": "today",
+      "subtype": "archive",
       "date": "2026-05-11",
       "game": "MARINERS vs. ASTROS"
     },
@@ -194,7 +202,7 @@
       "name": "Laboy Pick 2026-05-11 #78.jpg",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-11%20%2378.jpg",
       "type": "mypick_img",
-      "subtype": "today",
+      "subtype": "archive",
       "date": "2026-05-11",
       "game": "RAYS vs. BLUE JAYS"
     },
@@ -421,22 +429,6 @@
       "subtype": "archive",
       "date": "2026-04-29",
       "game": "RAYS @ GUARDIANS"
-    },
-    {
-      "name": "Laboy Pick 2026-04-26 #47.jpg",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-26%20%2347.jpg",
-      "type": "mypick_img",
-      "subtype": "archive",
-      "date": "2026-04-26",
-      "game": "ROCKIES @ METS"
-    },
-    {
-      "name": "Laboy Pick 2026-04-26 #46.jpg",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-04-26%20%2346.jpg",
-      "type": "mypick_img",
-      "subtype": "archive",
-      "date": "2026-04-26",
-      "game": "RED SOX @ ORIOLES"
     }
   ]
 }
