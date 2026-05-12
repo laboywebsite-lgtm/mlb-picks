@@ -3,8 +3,8 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
-      "name": "Laboy Pick 2026-05-12 #81.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-12%20%2381.html",
+      "name": "Laboy Pick 2026-05-12 #80.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-12%20%2380.html",
       "type": "record",
       "subtype": "my_record",
       "date": "2026-05-12",
@@ -12,8 +12,8 @@
       "slate": ""
     },
     {
-      "name": "Laboy Pick 2026-05-12 #80.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-12%20%2380.html",
+      "name": "Laboy Pick 2026-05-12 #81.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-12%20%2381.html",
       "type": "record",
       "subtype": "my_record",
       "date": "2026-05-12",
@@ -183,20 +183,20 @@
       "slate": ""
     },
     {
-      "name": "Laboy Pick 2026-05-12 #81.jpg",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-12%20%2381.jpg",
-      "type": "mypick_img",
-      "subtype": "today",
-      "date": "81",
-      "game": "PHILLIES vs. RED SOX"
-    },
-    {
       "name": "Laboy Pick 2026-05-12 #80.jpg",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-12%20%2380.jpg",
       "type": "mypick_img",
       "subtype": "today",
-      "date": "81",
+      "date": "80",
       "game": "ROCKIES vs. PIRATES"
+    },
+    {
+      "name": "Laboy Pick 2026-05-12 #81.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-12%20%2381.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "80",
+      "game": "PHILLIES vs. RED SOX"
     },
     {
       "name": "Laboy Pick 2026-05-11 #79.jpg",
