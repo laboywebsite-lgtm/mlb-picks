@@ -3,6 +3,15 @@
   "base_url": "https://laboywebsite-lgtm.github.io/mlb-picks",
   "files": [
     {
+      "name": "Laboy Pick 2026-05-13 #83.html",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-13%20%2383.html",
+      "type": "record",
+      "subtype": "my_record",
+      "date": "2026-05-13",
+      "session": "",
+      "slate": ""
+    },
+    {
       "name": "Laboy Record Card 2026-05-12-988f69a.html",
       "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Record%20Card%202026-05-12-988f69a.html",
       "type": "record",
@@ -174,13 +183,12 @@
       "slate": ""
     },
     {
-      "name": "Laboy Lines 2026-05-08-6e575bb.html",
-      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Lines%202026-05-08-6e575bb.html",
-      "type": "lines",
-      "subtype": "",
-      "date": "2026-05-08",
-      "session": "",
-      "slate": ""
+      "name": "Laboy Pick 2026-05-13 #83.jpg",
+      "url": "https://laboywebsite-lgtm.github.io/mlb-picks/Laboy%20Pick%202026-05-13%20%2383.jpg",
+      "type": "mypick_img",
+      "subtype": "today",
+      "date": "83",
+      "game": "NATIONALS vs. REDS"
     },
     {
       "name": "Laboy Pick 2026-05-12 #82.jpg",
